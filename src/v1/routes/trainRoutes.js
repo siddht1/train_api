@@ -2,7 +2,7 @@
 const express = require("express");
 
 // added Train controller
-const TrainController = require("../../controllers/trainController");
+const trainController = require("../../controllers/trainController");
 const router = express.Router();
 
 
