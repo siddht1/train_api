@@ -2,7 +2,8 @@
 const DB = require("./db.json");
 
 const getAllTrains = () => {
-  return DB.Trains;
+  return DB.trains;
+  console.log(DB);
 };
 
 module.exports = { getAllTrains };
