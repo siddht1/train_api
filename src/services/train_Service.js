@@ -1,10 +1,7 @@
-// In src/database/TrainService.js
-// *** ADD ***
-const Train = require("../database/train");
+// In src/services/train_Service.js
+const Train=require("../database/Train")
 const getAllTrains = () => {
-  // *** ADD ***
-  const allTrains = Train.getAllTrains();
-  // *** ADD ***
+  const allTrains=Train.getAllTrains();
   return allTrains;
 };
 
