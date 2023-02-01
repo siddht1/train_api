@@ -3,7 +3,7 @@ const express = require("express");
 // *** REMOVE ***
 const v1Router = require("./v1/routes");
 // *** ADD ***
-const v1TrainRouter = require("./v1/routes/trainRoutes");
+const v1TrainsRouter = require("./v1/routes/train_routes");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 app.use("/api/v1", v1Router);
 
 // *** ADD ***
-app.use("/api/v1/train", v1TrainRouter);
+app.use("/api/v1/trains", v1TrainsRouter);
 
 app.listen(PORT, () => {
   console.log(`API is listening on port ${PORT}`);
