@@ -11,9 +11,9 @@ using zero_api to host in vercel
 
 #URL
 
-[(https://train-api-git-main-siddht1.vercel.app/)]
-[(https://train-api-two.vercel.app/)]
-[(https://train-api-siddht1.vercel.app/)]
+[url_1](https://train-api-git-main-siddht1.vercel.app/)
+[url_2](https://train-api-two.vercel.app/)
+[url_3](https://train-api-siddht1.vercel.app/)
 
 
 # Files
@@ -41,3 +41,30 @@ Backbone of the entire project, calls v1/routes under the hood
  -src/database/db.json
  
  JSON implementation of a NOSQL like database,providing the entire database as a JSON file to the V1 API
+
+
+
+## UML diagram
+
+```mermaid
+sequenceDiagram
+
+src/index.js ->> src/v1/routes/index.js : init()
+src/v1/routes/index.js ->> src/v1/routes/train_routes : router()
+src/v1/routes/train_routes ->> src/controller : api_controller()
+src/controller ->> src/service :   getAllTrains(),
+  getOneTrain(),
+  createNewTrain(),
+  updateOneTrain(),
+  deleteOneTrain()
+src/service   ->> src/database : getAllTrains(),
+  getOneTrain(),
+  createNewTrain(),
+  updateOneTrain(),
+  deleteOneTrain()
+  
+  src/database --> DB.json : getAllTrains()
+  
+  DB.json : data()
+
+
