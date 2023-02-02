@@ -4,6 +4,12 @@ using zero_api to host in vercel
 - Built with nodejs and express
 - Is hosted in VERCEL
 
+#URL
+
+https://train-api-git-main-siddht1.vercel.app/
+https://train-api-two.vercel.app/
+https://train-api-siddht1.vercel.app/
+
 
 # Files
 
