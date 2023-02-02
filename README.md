@@ -7,7 +7,7 @@ using zero_api to host in vercel
 
 [![N|Solid](https://images.squarespace-cdn.com/content/v1/5cc22d6593a63233d214110c/1597710652025-QEY2UL92MLE1E2BX4WSJ/Vercel+%28Zeit%29.jpg?format=10w)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiW3uWCkfb8AhVVTmwGHSrICqoQFnoECBEQAQ&url=https%3A%2F%2Fvercel.com%2F&usg=AOvVaw0IyxhwoD9uGvLBGqylHAlt)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/siddht1/train_api/deployments/activity_log?environment=Production)
 
 #URL
 
