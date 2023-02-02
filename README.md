@@ -9,6 +9,8 @@ using zero_api to host in vercel
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/siddht1/train_api/deployments/activity_log?environment=Production)
 
+![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app={VERCEL_APP_NAME})
+
 #URL
 
 [url_1](https://train-api-git-main-siddht1.vercel.app/)
