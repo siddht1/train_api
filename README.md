@@ -52,16 +52,16 @@ sequenceDiagram
 src/index.js ->> src/v1/routes/index.js : init()
 src/v1/routes/index.js ->> src/v1/routes/train_routes : router()
 src/v1/routes/train_routes ->> src/controller : api_controller()
-src/controller ->> src/service :   getAllTrains(),
-  getOneTrain(),
-  createNewTrain(),
-  updateOneTrain(),
-  deleteOneTrain()
-src/service   ->> src/database : getAllTrains(),
-  getOneTrain(),
-  createNewTrain(),
-  updateOneTrain(),
-  deleteOneTrain()
+src/controller ->> src/service :   getAllTrains()
+ src/controller ->> src/service :  getOneTrain()
+  src/controller ->> src/service : createNewTrain()
+  src/controller ->> src/service : updateOneTrain()
+  src/controller ->> src/service : deleteOneTrain()
+src/service   ->> src/database : getAllTrains()
+ src/service   ->> src/database : getOneTrain()
+  src/service   ->> src/database :createNewTrain()
+  src/service   ->> src/database :updateOneTrain()
+  src/service   ->> src/database :deleteOneTrain()
   
   src/database --> DB.json : getAllTrains()
   
