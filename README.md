@@ -11,7 +11,7 @@ using zero_api to host in vercel
 
 ![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=train-md4tvf67o-siddht1.vercel.app)
 
-[prj_risg8kHyddEDZQuGR6IRWBiWrLUC]
+
 #URL
 
 [url_1](https://train-api-git-main-siddht1.vercel.app/)
