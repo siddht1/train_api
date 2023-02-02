@@ -12,7 +12,8 @@ router.route("/").get((req, res) => {
     'Access-Control-Allow-Headers',
     'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
   )
-  res.send({"status":"OK","API":"WORKING @ V1","API_V1":"/API/V1"});
+    var fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+  res.send({"status":"OK","API":"WORKING @ V1","API_V1":"/API/V1","url":fullUrl});
 });
 
 module.exports = router;
