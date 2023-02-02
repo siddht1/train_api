@@ -65,6 +65,6 @@ src/service   ->> src/database : getAllTrains()
   
   src/database --> DB.json : getAllTrains()
   
-  DB.json : data()
+  DB.json -->  JSON : data()
 
 
