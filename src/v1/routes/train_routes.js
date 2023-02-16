@@ -2,9 +2,10 @@
 const express = require("express");
 const train_Controller = require("../../controllers/train_Controller");
 const router = express.Router();
+const cors = require('cors');
 
-
-
+// Enable CORS for all routes
+router.use(cors());
 router.get("/", train_Controller.getAllTrains);
 
 router.get("/:traintId", train_Controller.getOneTrain);
